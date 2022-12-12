@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en" class="sm:scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kryptopiguła - Kryptowaluty, pieniądze, humor</title>
+
+  <link rel="icon" type="image/x-icon" href="./favicon2.ico">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href=
+  "https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="js/main.js" defer></script>
+</head>
+
+<body class="min-h-screen bg-black dark:bg-black text-white">
+  <header class="sticky top-0 z-10 bg-black text-white">
+    <section class="mx-auto flex max-w-4xl items-center justify-between p-4">
+      <h1 class="text-3xl font-medium">
+        <a href="#hero">💊 Kryptopiguła</a>
+      </h1>
+      <div>
+        <button id="hamburger-button" class="relative h-8 w-8 cursor-pointer text-xl md:hidden">
+          <div
+            class="absolute top-4 -mt-0.5 h-1 w-8 rounded bg-white transition-all duration-500 before:absolute before:h-1 before:w-8 before:-translate-x-4 before:-translate-y-3 before:rounded before:bg-white before:transition-all before:duration-500  before:content-[''] after:absolute  after:h-1 after:w-8 after:-translate-x-4 after:translate-y-3 after:rounded after:bg-white after:transition-all after:duration-500 after:content-['']">
+          </div>
+        </button>
+        <nav class="hidden space-x-8 text-xl md:block" aria-label="main">
+          <a href="#rockets" class="hover:opacity-90">Nasze media</a>
+          <a href="#testimonials" class="hover:opacity-90">O nas</a>
+          <a href="#contact" class="hover:opacity-90">Kontakt</a>
+        </nav>
+      </div>
+    </section>
+    <section id="mobile-menu"
+      class="top-68 justify-content-center absolute hidden w-full origin-top animate-open-menu flex-col bg-black text-5xl">
+      <!-- <button class="text-8xl self-end px-6">
+                &times;
+            </button> -->
+      <nav class="flex min-h-screen flex-col items-center py-8" aria-label="mobile">
+        <a href="#hero" class="w-full py-6 text-center hover:opacity-90">Home</a>
+        <a href="#rockets" class="w-full py-6 text-center hover:opacity-90">Our Rockets</a>
+        <a href="#testimonials" class="w-full py-6 text-center hover:opacity-90">Testimonials</a>
+        <a href="#contact" class="w-full py-6 text-center hover:opacity-90">Contact Us</a>
+        <a href="#footer" class="w-full py-6 text-center hover:opacity-90">Legal</a>
+      </nav>
+    </section>
+  </header>
+  <main class="mx-auto max-w-4xl">
+    <section id="hero"
+      class="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row">
+      <article class="sm:w-1/2">
+        <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl">
+          <span class="text-indigo-300 dark:text-indigo-500">✅<a href="https://www.youtube.com/playlist?list=PLIZj3G4WuI1VGmBTmgm-ZBTeGNzLQCmSW">EKOSYSTEMY</a></span>
+          <span class="text-indigo-500 dark:text-indigo-500">✅<a href="https://www.youtube.com/playlist?list=PLIZj3G4WuI1XpQe8E0nUSYiCTLVx1swKE">EDUKACJA</a><br></span>
+          <span class="text-indigo-700 dark:text-indigo-500"><a href="https://www.youtube.com/playlist?list=PLIZj3G4WuI1UGpUGwgzsjo13VWUhEDNnD">✅DYOR</a></span>
+
+        </h2>
+        <div id="responsiveVideoWrapper" className="relative h-0 pb-fluid-video">
+          <iframe
+            className="absolute top-0 left-0 w-full h-full"
+            src="https://www.youtube.com/embed/pds-24HaMa4"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style="border:1px solid gray"
+            
+          ></iframe>
+        </div>
+
+      </article>
+      <img class="w-1/2" src="./img/bitcoin.png" alt="Rocket Dab" />
+    </section>
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="rockets" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Nasze media👇
+      </h2>
+      <ul class="mx-auto my-12 flex list-none flex-col items-center gap-8 sm:flex-row">
+        <a href="https://www.youtube.com/channel/UCJXhdJN7YS6zn6YFxtfxY0Q"><li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <img src="./img/youtube.png" alt="Youtube" class="mb-6 w-1/2" />
+          <div class="bg-indigo-300">
+            <img src="./img/youtube1.png" alt="Youtube" class="object-cover h-48 w-96">
+          </div>
+          </p>
+        </li></a>
+        <a href="https://www.tiktok.com/@kryptopigula"><li
+          class="flex w-2/3 flex-col items-center rounded-3xl border border-solid border-slate-900 bg-white py-6 px-2 shadow-xl dark:border-gray-100 dark:bg-black sm:w-5/6">
+          <img src="./img/tiktok.png" alt="Tik Tok" class="mb-6 w-1/2" />
+          <h3 class="text-center text-3xl text-slate-900 dark:text-white">
+            <div class="bg-indigo-300">
+              <img src="./img/tiktok1.png" alt="Tik Tok" class="object-cover h-52 w-96">
+            </div>
+
+        </li></a>
+      </ul>
+    </section>
+
+
+    
+
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="about-us"
+      class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6">
+      <h2 class="mb-6 text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Czym się zajmujemy?🕵️
+      </h2>
+      <figure class="my-12">
+        <blockquote class="relative rounded-3xl bg-black py-12 pl-14 pr-8 dark:bg-black">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            "Jeśli ktoś mówi Ci, że ma silne przeczucie co do rynku finansowego, to najbezpieczniejszą rzeczą jest mu nie wierzyć"
+          </p>
+        </blockquote>
+        <figcaption class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl">
+          &#8212; Daniel Kahneman 💡
+        </figcaption>
+      </figure>
+      <figure class="my-12">
+        <blockquote class="relative rounded-3xl bg-black py-12 pl-14 pr-8 dark:bg-black">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            Jesteśmy przede wszystkim pewnego rodzaju rewolucjom w świecie krypto.
+            <span class="italic">Tworzymy pewnego rodzaju "underground" tego zdemoralizowanego świata.</span>
+            Naszą wizją jest przede wszystkim aby zebrać jak największą ilość ludzi, którzy chcą się wspólnie edukować, rozwijać i tworzyć lepszy świat kryptowalut bez naganiaczy, shillerów i innego dziadostwa.
+          </p>
+        </blockquote>
+      </figure>
+        <blockquote class="relative rounded-3xl bg-black py-12 pl-14 pr-8 dark:bg-black">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            Płatne kursy? 💵 &#8212;
+            <span class="italic">Nie to nie u nas!</span> &#8212; Naszą wizją jest uczyć się wspólnie poprzez wymianę informacji między sobą.
+             Chcemy aby jak największa ilość osób po prostu była świadoma, że świat krypto jest zdemoralizowany od środka, a Ty jedyne co możesz zrobić, aby na tym rynku przetrwać to EDUKOWAĆ SIĘ! POPEŁNIAĆ BŁĘDY I UCZYĆ SIĘ NA NICH!
+          </p>
+        </blockquote>
+
+        <blockquote class="relative rounded-3xl bg-black py-12 pl-14 pr-8 dark:bg-black">
+          <p
+            class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl">
+            Wyznajemy zasadę ucz się na błędach! &#8212;
+            <span class="italic">Nie, nie chodzi o to abyś nikogo nie słuchał</span> &#8212; chodzi o to, abyś był świadomy, że tylko ten co przeżył bessę wie czym ona jest. Nauka poprzez praktykę. To Ty jesteś odpowiedzialny za swoje błędy nikt inny! To Twoja edukacja będzie miała wpływ na Twoje jutro. Chcesz oddać swój los w czyjeś ręcę? Nie ma problemu! Bądź uzależniony od innych - Albo bądz zależny od siebie <span class="text-orange-500 dark:text-indigo-500">i dołącz do nas!</span>
+          </p>
+        </blockquote>
+
+    </section>
+
+    <hr class="mx-auto w-1/2 bg-black dark:bg-white" />
+
+    <section id="contact" class="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6">
+      <h2 class="mb-6 text-left text-4xl font-bold text-slate-900 dark:text-white sm:text-5xl">
+        Dołącz do nas! 🌐
+      </h2>
+      <a href="https://telegram.im/@kryptopolska_pl" target="_blank" class="telegramim_button telegramim_shadow telegramim_pulse" style="font-size:32px;width:437px;background:#27A5E7;box-shadow:1px 1px 5px #27A5E7;color:#FFFFFF;border-radius:28px;" title=""><i></i> kryptopolska PL<small><span class="telegramim_count" data-for="@kryptopolska_pl">...</span> Użytkowników</small></a>
+
+
+        
+    </section>
+  </main>
+
+  <footer id="footer" class="bg-black text-xl text-white">
+    <section class="mx-auto flex max-w-4xl flex-col p-4 sm:flex-row sm:justify-between">
+      <address>
+        <h2>Kryptopiguła TEAM💊</h2>
+        Email:
+        <a href="mailto:kryptopigula@gmail.com
+        ">kryptopigula@gmail.com✉️
+      </a><br />
+      </address>
+      <nav class="hidden flex-col gap-2 md:flex" aria-label="footer">
+        <a href="#rockets" class="hover:opacity-90">Nasze media</a>
+        <a href="#testimonials" class="hover:opacity-90">O nas</a>
+      </nav>
+      <div class="footer-col">
+        <h4>Nasze socialmedia</h4>
+          <a href="https://www.facebook.com/cryptoinapill/"><i class="fa fa-facebook-f"></i></a>
+          <a href="https://twitter.com/Kryptopigula"><i class="fa fa-twitter"></i></a>
+          <a href="https://telegram.im/@kryptopolska_pl"><i class="fa fa-telegram"></i></a>
+          <a href="https://www.youtube.com/channel/UCJXhdJN7YS6zn6YFxtfxY0Q"><i class="fa fa-youtube"></i></a>
+          <a href="https://www.tiktok.com/@kryptopigula"><iconify-icon icon="simple-icons:tiktok"></iconify-icon></a>
+        </div>
+    </section>
+  </footer>
+
+
+  <script type="text/javascript">(function() {var script=document.createElement("script");script.type="text/javascript";script.async =true;script.src="//telegram.im/widget-button/index.php?id=@kryptopolska_pl";document.getElementsByTagName("head")[0].appendChild(script);})();</script>
+
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+
+</body>
+
+</html>
